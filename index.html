@@ -2,11 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
+      <title>Instanews</title>
     <meta name="viewport" content="width=device-width, initial-scale-1">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <title>Instanews</title>
+    <link type="text/css" rel="stylesheet" href="dist/css/stylesFinal.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
   <body>
-    <script type=text/javascript src="script.js"> </script>
+    <header>
+        <img src="assets/images/nyt-logo.svg" alt="NY Times Logo">
+        <div class="option">
+        <h2>Choose a section:</h2>
+        <select  class="choose">
+       <a href="index.html"><option value="">Selections...</option></a>
+       <option value="home">Home</option>
+       <option value="sports">Sports</option>
+       <option value="science">Science</option>
+       <option value="technology">Technology</option>
+       <option value="arts">Arts</option>
+       <option value="opinion">Opinion</option>
+       <option value="food">Food</option>
+       <option value="health">Health</option>
+     </select>
+       </div>
+    </header>
+
+
+    <div class="headline">
+
+    </div>
+    <footer>
+    <h3> © Copyright 2016 <span>Instanews</span> </h3>
+    </footer>
+    <script type=text/javascript src="src/js/script.js"> </script>
   </body>
 </html>
